@@ -109,4 +109,8 @@ class TestAddNewPlace(TestCase):
         # Expect this data to be in the database. Use get() to get data with
         # the values expected. Will throw an exception if no data, or more than
         # one row, matches. Remember throwing an exception will cause this test to fail
-        place_in_database = Place.objects.get(name='Tokyo', visited=True)   
+        place_in_database = Place.objects.get(name='Tokyo', visited=True)  
+
+
+
+ 
